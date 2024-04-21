@@ -1,7 +1,7 @@
 git add .
-git commit -m 'initial v0.1-rc1'
+git commit -m '0.0.1'
 git push -u origin main
-git tag v0.1-rc1
+git tag v0.0.1
 git push --tag
 make clean
 make upload
