@@ -16,6 +16,13 @@
 ### usage
 
 ```python
+from wifitest import WifiTest
+
+s = WifiTest()
+s.scan()
+```
+
+```python
 
 from wifitest import WifiTest
 
