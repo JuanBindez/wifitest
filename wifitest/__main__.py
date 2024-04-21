@@ -23,17 +23,35 @@ from wifitest.scan import WifiScan
 
 
 class WifiTest:
+    """
+    Class to perform tests related to Wi-Fi networks, such as scanning, brute-forcing, and event monitoring.
+    """
+    
     def scan(self):
+        """
+        Performs a scan of available Wi-Fi networks and prints their details.
+        """
         wifi_scan = WifiScan()
         print("Scanning for Wi-Fi networks...")
         print("Wi-Fi networks found:")
+        
         networks = wifi_scan.scan_wifi_networks()
         wifi_scan.print_wifi_details(networks)
 
     def bruteforce(self, ssid: str, wordlist: str):
+        """
+        Performs a brute-force attack on a specified Wi-Fi network using a wordlist.
+
+        Args:
+            ssid (str): The SSID of the target Wi-Fi network.
+            wordlist (str): The path to the wordlist file.
+        """
         bf = BruteForce()
         bf.brute_force_attack(ssid, wordlist)
 
     def events(self):
+        """
+        Initiates monitoring of events related to Wi-Fi networks, such as connection and disconnection.
+        """
         events = WifiEvents()
         events.monitor_wifi_events()
