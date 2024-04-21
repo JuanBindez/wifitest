@@ -13,16 +13,20 @@
     sudo pip install wifitest
 
 
-### usage
+### usage:
+
+#### import
 
 ```python
 from wifitest import WifiTest
 ```
+#### scan available wifi networks
 
 ```python
 s = WifiTest()
 s.scan()
 ```
+#### bruteforce on wifi network
 
 ```python
 SSID = "wifi"
