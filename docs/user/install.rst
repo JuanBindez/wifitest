@@ -1,7 +1,7 @@
 .. _install:
 
 Installation of wifitest
-============================
+========================
 
 This guide assumes you already have python and pip installed.
 

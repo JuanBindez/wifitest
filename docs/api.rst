@@ -7,7 +7,7 @@ API
 
 
 WifiTest Object
---------------
+---------------
 
 .. autoclass:: WifiTest
    :members:

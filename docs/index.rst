@@ -33,7 +33,7 @@ Features
 - events of the wifi networks.
 
 The User Guide
---------------
+---------------
 This part of the documentation begins with some background information about
 the project, then focuses on step-by-step instructions for getting the most out
 of wifitest.
