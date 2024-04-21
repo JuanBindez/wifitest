@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wifitest"
-version = "0.1.7"
+version = "0.1.8"
 authors = [
   { name="Juan Bindez", email="juanbindez780@gmail.com" },
 ]
@@ -40,7 +40,7 @@ dependencies = ['pywifi']
 "Read the Docs" = "http://wifitest.readthedocs.io/"
 
 [project.scripts]
-direnumerate = "wifitest.cli:main"
+wifitest = "wifitest.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["wifitest*"]
