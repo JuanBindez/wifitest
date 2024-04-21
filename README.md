@@ -17,15 +17,14 @@
 
 ```python
 from wifitest import WifiTest
+```
 
+```python
 s = WifiTest()
 s.scan()
 ```
 
 ```python
-
-from wifitest import WifiTest
-
 SSID = "wifi"
 WORDLIST = "wordlist.txt"
 
