@@ -36,3 +36,21 @@ wifi = WifiTest()
 wifi.bruteforce(SSID, WORDLIST)
 
 ```
+
+### CLI
+
+```bash
+usage: wifitest [-h] [--ssid SSID] [--wordlist WORDLIST] {scan,bruteforce,events}
+
+Wifitest CLI
+
+positional arguments:
+  {scan,bruteforce,events}
+                        Operation to perform: scan, bruteforce, or events
+
+options:
+  -h, --help            show this help message and exit
+  --ssid SSID           SSID of the target Wi-Fi network (required for bruteforce
+                        operation)
+  --wordlist WORDLIST   Path to the wordlist file (required for bruteforce operation)
+```
