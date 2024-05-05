@@ -54,3 +54,7 @@ options:
                         operation)
   --wordlist WORDLIST   Path to the wordlist file (required for bruteforce operation)
 ```
+
+### Bruteforce
+
+    sudo wifitest bruteforce  --ssid  WIFINAME --wordlist wordlist.txt
