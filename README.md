@@ -58,3 +58,12 @@ options:
 ### Bruteforce
 
     sudo wifitest bruteforce  --ssid  WIFINAME --wordlist wordlist.txt
+
+
+### Scan
+
+    sudo wifitest scan
+
+### Events
+
+    sudo wifitest events
