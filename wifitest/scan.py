@@ -1,7 +1,6 @@
 import pywifi
 from pywifi import const
 
-
 class WifiScan():
     """
     Class to perform Wi-Fi network scanning and print details of the scanned networks.
@@ -30,6 +29,7 @@ class WifiScan():
             print("SSID:", network.ssid)
             print("BSSID:", network.bssid)
             print("Signal Strength (dBm):", network.signal)
+            print("Frequency (MHz):", network.freq)
             print("Security:", self.translate_encryption_type(network.akm))
             print("----------------------------------")
 
